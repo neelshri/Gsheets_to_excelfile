@@ -1,0 +1,10 @@
+You need to add your own personal json keys file which can be made
+by going to the webpage:
+
+https://console.cloud.google.com/iam-admin/serviceaccounts
+
+once the service account is created you need to use that service account name and give it permission 
+in the google spreadsheet you wish to read/write
+
+then you can open up that service account to generate a new key which will be in json format and can be used
+in this api calling
